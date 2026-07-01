@@ -301,3 +301,14 @@ left:0;
 .project-card p{
 margin:15px 0 25px;
 }
+.hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-image img{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
