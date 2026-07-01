@@ -235,4 +235,45 @@ html{
     box-shadow:0 15px 35px rgba(56,189,248,.35);
 }
 
+.hero-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero-image img{
+width:320px;
+height:320px;
+border-radius:50%;
+border:6px solid #38bdf8;
+object-fit:cover;
+box-shadow:0 0 35px rgba(56,189,248,.5);
+}
+
+.secondary{
+margin-left:15px;
+background:transparent;
+border:2px solid #38bdf8;
+}
+
+.secondary:hover{
+background:#38bdf8;
+}
+
+@media(max-width:768px){
+
+.hero-content{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-image img{
+width:220px;
+height:220px;
+}
+
+}
+
 }
