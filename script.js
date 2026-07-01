@@ -1,5 +1,5 @@
 
-const text = "Software Engineer | ML Enthusiast | Problem Solver";
+const text = " Aspiring Software Engineer | web Developer | Data Engineer | AI & ML Engineer | Full Stack Developer";
 let i = 0;
 
 function type() {
