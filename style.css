@@ -311,3 +311,31 @@ height:auto;
 .project-card p{
     margin:15px 0 25px;
 }
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+
+    .hero-image img {
+        width: 70%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+.hero-image {
+    display: block;
+}
+
