@@ -279,53 +279,26 @@ height:220px;
 
 }
 
-<section id="projects" class="projects">
-<div class="container">
+.project-card{
+    position:relative;
+    overflow:hidden;
+}
 
-<h2>Featured Projects</h2>
+.project-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:5px;
+    background:#38bdf8;
+    transition:.5s;
+}
 
-<div class="project-grid">
+.project-card:hover::before{
+    left:0;
+}
 
-<div class="project-card">
-<h3>🌾 Local Farmers Market Platform</h3>
-<p>
-A web-based marketplace connecting farmers directly with customers using HTML, CSS, JavaScript, and database technologies.
-</p>
-
-<a href="https://github.com/Akshitha953" target="_blank" class="btn">
-View Code
-</a>
-
-</div>
-
-<div class="project-card">
-<h3>🩺 Monkeypox Detection System</h3>
-
-<p>
-AI-based disease detection using CNN and VGG16 models for image classification with improved prediction accuracy.
-</p>
-
-<a href="https://github.com/Akshitha953" target="_blank" class="btn">
-View Code
-</a>
-
-</div>
-
-<div class="project-card">
-<h3>💧 Automatic Water Level Controller</h3>
-
-<p>
-An automated water monitoring system using sensors for efficient motor control and water management.
-</p>
-
-<a href="https://github.com/Akshitha953" target="_blank" class="btn">
-View Code
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
+.project-card p{
+    margin:15px 0 25px;
+}
