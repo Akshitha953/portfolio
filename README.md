@@ -40,5 +40,5 @@ portfolio/
 ## Contact
 
 - 📧 manalaakshitha@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/manala-akshitha9b5bb410)
+- 💼 [LinkedIn](https://www.linkedin.com/in/manalaakshitha)
 - 💻 [GitHub](https://github.com/Akshitha953)
